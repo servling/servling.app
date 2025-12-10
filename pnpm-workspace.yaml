@@ -1,6 +1,11 @@
+catalog:
+  '@iconify-json/carbon': ^1.2.15
+
 catalogMode: prefer
-shellEmulator: true
-trustPolicy: no-downgrade
 
 onlyBuiltDependencies:
   - unrs-resolver
+
+shellEmulator: true
+
+trustPolicy: no-downgrade

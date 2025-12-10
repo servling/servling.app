@@ -7,9 +7,9 @@ The landing page for Servling - The modern fullstack platform for managing your 
 ## Tech Stack
 
 - **Framework**: [Nuxt 4](https://nuxt.com)
-- **Styling**: [UnoCSS](https://unocss.dev) with [Tailwind Reset](https://unocss.dev/guide/style-reset)
-- **Icons**: [UnoCSS Icons](https://unocss.dev/presets/icons)
-- **Fonts**: Inter & Outfit (via Google Fonts)
+- **Styling**: [UnoCSS](https://unocss.dev)
+- **Icons**: [@nuxt/icon](https://nuxt.com/modules/icon)
+- **Fonts**: [@nuxt/fonts](https://nuxt.com/modules/fonts)
 
 ## Development
 

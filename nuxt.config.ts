@@ -9,7 +9,9 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
   ],
   devtools: { enabled: true },
-  css: [],
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
   compatibilityDate: '2024-11-01',
   eslint: {
     config: {
