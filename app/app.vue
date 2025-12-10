@@ -11,7 +11,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative min-h-screen flex flex-col overflow-hidden bg-[#0a0a0a] text-white font-sans selection:bg-brand-primary selection:text-white">
+  <div class="relative min-h-full flex flex-col overflow-hidden bg-[#0a0a0a] text-white font-sans selection:bg-brand-primary selection:text-white">
     <div class="pointer-events-none absolute left-0 top-0 z-0 h-full w-full overflow-hidden">
       <div class="animate-pulse-slow absolute left-[-10%] top-[-20%] h-[50%] w-[50%] rounded-full bg-brand-primary/20 blur-[120px]" />
       <div class="animate-pulse-slow absolute bottom-[-20%] right-[-10%] h-[50%] w-[50%] rounded-full bg-brand-purple/20 blur-[120px] delay-1000" />
@@ -66,6 +66,12 @@ onMounted(() => {
 </template>
 
 <style>
+html, body, #__nuxt {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes pulse-slow {
   0%, 100% { opacity: 0.5; transform: scale(1); }
   50% { opacity: 0.8; transform: scale(1.1); }
