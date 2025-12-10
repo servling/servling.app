@@ -27,12 +27,12 @@ onMounted(() => {
           <img src="/banner.svg" alt="Servling" class="relative z-10 h-24 w-auto drop-shadow-xl md:h-32">
         </div>
 
-        <h1 class="mb-6 from-white to-gray-400 bg-gradient-to-r bg-clip-text text-4xl text-transparent font-bold leading-tight tracking-tight font-display md:mb-10 md:text-8xl">
+        <h1 class="mb-8 from-white to-gray-400 bg-gradient-to-r bg-clip-text text-5xl text-transparent font-bold leading-tight tracking-tight font-display md:text-7xl text-white">
           Self-Hosting. <br> <span class="from-brand-purple to-brand-primary bg-gradient-to-r bg-clip-text text-transparent">Simplified.</span>
         </h1>
 
-        <p class="mb-8 max-w-3xl text-base text-gray-400 leading-relaxed md:mb-12 md:text-2xl">
-          The modern fullstack platform for managing your Docker containers, services, and deployments. Servling orchestrates your infrastructure so you can focus on shipping.
+        <p class="mb-12 max-w-3xl text-lg text-gray-400 leading-relaxed md:text-2xl">
+          The complete zero-config self-hosting platform.
         </p>
 
         <div class="mt-4 flex flex-col items-center gap-6">
