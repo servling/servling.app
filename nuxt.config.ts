@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       charset: 'utf-8',
       meta: [
-        { name: 'description', content: 'Self-Hosting. Simplified.' },
+        { name: 'description', content: 'The complete zero-config self-hosting platform.' },
         { name: 'theme-color', content: '#0a0a0a' },
       ],
       link: [
