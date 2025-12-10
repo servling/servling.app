@@ -17,21 +17,21 @@ onMounted(() => {
       <div class="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-brand-purple/20 rounded-full blur-[120px] animate-pulse-slow delay-1000"></div>
     </div>
 
-    <main class="flex-grow flex flex-col items-center justify-center z-10 p-6 relative">
+    <main class="flex-grow flex flex-col items-center justify-center z-10 p-4 md:p-6 relative">
       <div 
         class="transition-all duration-1000 transform flex flex-col items-center text-center max-w-5xl mx-auto"
         :class="isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'"
       >
-        <div class="mb-12 relative group">
+        <div class="mb-6 md:mb-12 relative group">
           <div class="absolute inset-0 bg-brand-primary/20 blur-3xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
           <img src="/banner.svg" alt="Servling" class="h-24 md:h-32 w-auto relative z-10 drop-shadow-xl" />
         </div>
 
-        <h1 class="font-display text-6xl md:text-8xl font-bold mb-10 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent tracking-tight leading-tight">
+        <h1 class="font-display text-4xl md:text-8xl font-bold mb-6 md:mb-10 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent tracking-tight leading-tight">
           Self-Hosting. <br/> <span class="bg-gradient-to-r from-brand-purple to-brand-primary bg-clip-text text-transparent">Simplified.</span>
         </h1>
 
-        <p class="text-gray-400 text-lg md:text-2xl max-w-3xl leading-relaxed mb-12">
+        <p class="text-gray-400 text-base md:text-2xl max-w-3xl leading-relaxed mb-8 md:mb-12">
           The modern fullstack platform for managing your Docker containers, services, and deployments. Servling orchestrates your infrastructure so you can focus on shipping.
         </p>
 
