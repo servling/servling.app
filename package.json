@@ -15,9 +15,13 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.6.1",
+    "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/icon": "^2.1.0",
+    "@unocss/eslint-plugin": "^66.5.10",
     "@unocss/nuxt": "^66.5.10",
+    "eslint": "^9.39.1",
     "unocss": "^66.5.10"
   }
 }

@@ -1,11 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
   modules: [
     '@unocss/nuxt',
     '@nuxt/icon',
     '@nuxt/fonts',
+    '@nuxt/eslint',
   ],
+  devtools: { enabled: true },
   css: [],
+  compatibilityDate: '2024-11-01',
+  eslint: {
+    config: {
+      standalone: false,
+      nuxt: {
+        sortConfigKeys: true,
+      },
+    },
+  },
 })
