@@ -41,7 +41,7 @@ onMounted(() => {
             external
             class="group relative inline-flex items-center gap-3 px-8 py-4 bg-white text-black hover:bg-gray-200 font-semibold rounded-full transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
           >
-            <div class="i-carbon-logo-github text-2xl" />
+            <Icon name="carbon:logo-github" size="24" />
             <span class="text-lg">Check it out on GitHub</span>
           </NuxtLink>
           

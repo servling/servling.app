@@ -1,22 +1,15 @@
-import { defineConfig, presetUno, presetAttributify, presetWebFonts, presetIcons } from 'unocss'
+import { defineConfig, presetUno, presetAttributify } from 'unocss'
 
 export default defineConfig({
     presets: [
         presetUno(),
         presetAttributify(),
-        presetIcons({
-            scale: 1.2,
-            cdn: 'https://esm.sh/'
-        }),
-        presetWebFonts({
-            provider: 'google',
-            fonts: {
-                sans: 'Inter:400,600,700',
-                display: 'Outfit:400,700',
-            },
-        }),
     ],
     theme: {
+        fontFamily: {
+            sans: 'Inter',
+            display: 'Outfit',
+        },
         colors: {
             brand: {
                 primary: '#193CB8',

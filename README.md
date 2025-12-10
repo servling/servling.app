@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Servling Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The landing page for Servling - The modern fullstack platform for managing your Docker containers.
 
-## Setup
+> **Note**: This repository contains the public marketing site/landing page. The dashboard is a separate application.
 
-Make sure to install dependencies:
+## Tech Stack
+
+- **Framework**: [Nuxt 4](https://nuxt.com)
+- **Styling**: [UnoCSS](https://unocss.dev) with [Tailwind Reset](https://unocss.dev/guide/style-reset)
+- **Icons**: [UnoCSS Icons](https://unocss.dev/presets/icons)
+- **Fonts**: Inter & Outfit (via Google Fonts)
+
+## Development
+
+This project uses [pnpm](https://pnpm.io).
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# Install dependencies
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# Start development server
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Server will start at `http://localhost:3000`.
 
-Build the application for production:
+## Building for Production
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## License
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Copyright © 2025 Servling. All rights reserved.
